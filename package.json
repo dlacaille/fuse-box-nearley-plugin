@@ -1,10 +1,12 @@
 {
   "name": "fuse-box-nearley-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for fuse-box that lets you import Nearley *.ne files as a compiled grammar for use in a Nearley parser",
   "main": "lib/index.js",
   "scripts": {
-    "install": "tsc"
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile",
+    "preversion": "npm run compile"
   },
   "repository": {
     "type": "git",
