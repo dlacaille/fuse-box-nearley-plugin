@@ -20,7 +20,7 @@ fuse = FuseBox.init({
 
 Import your grammar into your project, compile, and parse.
 
-```ts
+```js
 // Import the grammar
 const grammar = require("calculator.ne");
 
