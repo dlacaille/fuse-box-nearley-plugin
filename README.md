@@ -3,7 +3,7 @@ A plugin for fuse-box that lets you import Nearley *.ne files as a grammar for u
 
 ## Usage
 ```sh
-yarn add fusebox-closure-plugin
+yarn add fuse-box-nearley-plugin
 ```
 
 Add to your fuse-box plugins list.
