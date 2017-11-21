@@ -1,0 +1,31 @@
+{
+  "name": "fuse-box-nearley-plugin",
+  "version": "1.0.0",
+  "description": "A plugin for fuse-box that lets you import Nearley *.ne files as a compiled grammar for use in a Nearley parser",
+  "main": "lib/index.js",
+  "scripts": {
+    "install": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldom66/fuse-box-nearley-plugin.git"
+  },
+  "keywords": [
+    "nearley",
+    "fuse-box",
+    "plugin"
+  ],
+  "author": "Dominic Lacaille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldom66/fuse-box-nearley-plugin/issues"
+  },
+  "homepage": "https://github.com/ldom66/fuse-box-nearley-plugin#readme",
+  "devDependencies": {
+    "@types/nearley": "^2.11.0",
+    "@types/node": "^8.0.53",
+    "fuse-box": "^2.5.0-beta.1",
+    "nearley": "^2.11.0",
+    "typescript": "^2.6.1"
+  }
+}
