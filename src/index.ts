@@ -21,7 +21,8 @@ export class NearleyPluginClass implements Plugin {
         parser.feed(file.contents);
 
         var compilation = compile(parser.results[0], {
-            file: file.relativePath
+            file: file.relativePath,
+            args: [file.relativePath]
         });
 
         lint(compilation, {});
